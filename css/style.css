@@ -86,12 +86,26 @@ padding-bottom: 3rem;
 .section-2{
     height: 800px;
 }
+
+/* Section5 */
+.section-5{
+    padding: 7rem 0;   
+}
+.section-5 h1 {
+    width: 70%;
+    font-size: 50px;
+    padding-bottom: 4rem;
+}
+.section-5 a {
+    color: blue;
+    font-size: 20px;
+}
+
+
 /* section7 */
 .section-7{
     background-color: #B4D0E7;
-    padding: 7rem 0;
-    
-    
+    padding: 7rem 0;   
 }
 .section7-purple-title{
     font-weight: bold;
