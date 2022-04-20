@@ -78,15 +78,48 @@ padding-bottom: 3rem;
     bottom: 110px;
     left: 0;
 }
-
-/* Last section */
-.section.section-8{
-    padding: 8rem 0;
-}
 .small-container{
     max-width: 1000px;
     margin: auto;
 }
+/* section2 */
+.section-2{
+    height: 800px;
+}
+/* section7 */
+.section-7{
+    background-color: #B4D0E7;
+    padding: 7rem 0;
+    
+    
+}
+.section7-purple-title{
+    font-weight: bold;
+    color: #61082B;
+    font-size: 50px;
+    flex-basis: 60%;
+}
+.section-7 .flex{
+    justify-content: space-between;
+}
+.section-7 a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: .5rem 3rem;
+    margin-top: 5px;
+    height: 35px;
+}
+
+
+
+
+/* Lastsection */
+.section.section-8{
+    padding: 8rem 0;
+}
+
 .question{
     justify-content: space-between;
     flex-basis: 200px;
