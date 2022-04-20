@@ -34,6 +34,9 @@ header a {
     padding: .5rem .7rem;
     color: white;
 }
+.section{
+    width: 100%;
+}
 .section-blue{
     background-color: #B4D0E7;
 
@@ -72,9 +75,51 @@ padding-bottom: 3rem;
 .section-blue-icon{
     font-size: 50px;
     position: absolute;
-    bottom: 100px;
+    bottom: 110px;
     left: 0;
 }
+
+/* Last section */
+.section.section-8{
+    padding: 8rem 0;
+}
+.small-container{
+    max-width: 1000px;
+    margin: auto;
+}
+.question{
+    justify-content: space-between;
+    flex-basis: 200px;
+    border-top: 1px solid #999999;
+    padding: 3rem 0;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.title.question{
+    border-top: 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+main .last-question{
+    border-bottom: 1px solid #999999;
+}
+.question i {
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 3rem;
+}
+    
+
+
+
+
+
+
+
+
+
+
 /* Footer */
 footer{
     height: 800px;
