@@ -85,7 +85,37 @@ padding-bottom: 3rem;
 /* section2 */
 .section-2{
     height: 800px;
+    
 }
+/* Section3 */
+.section-3{
+    padding: 7rem 0;   
+}
+.section-3 img {
+    width: 630px;
+    padding-right: 3rem;
+}
+.section-3 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    background-color:white;
+    padding: .5rem .7rem;
+    border: 1px solid black;
+    height: 35px;
+}
+.section-3-description-container{
+    padding: 3rem 0;
+}
+.section-3-description-container h2{
+    font-size: 30px;
+    padding-bottom: 1rem;
+}
+.section-3-description-container p {
+    font-size: 20px;
+    padding-bottom: 2rem;
+}
+
 
 /* Section5 */
 .section-5{
