@@ -24,7 +24,6 @@ header{
 header a {
     text-decoration: none;
     color: black;
-
     padding-inline: 2rem;
     font-size: 18px;
     font-weight: 100;
@@ -34,11 +33,14 @@ header a {
     background-color: #0061FF;
     padding: .5rem .7rem;
     color: white;
-    margin-bottom: 2rem;
 }
 .section-blue{
     background-color: #B4D0E7;
 
+}
+.section-blue-button{
+    font-size: 20px;
+    font-weight: 100;
 }
 .big-container{
     max-width: 1200px;
@@ -58,4 +60,14 @@ padding-bottom: 3rem;
 .big-container p{
     font-size: 20px;
     margin-bottom: 2rem;
+}
+.button-description{
+    padding: 2rem 0;
+    font-size: 20px;
+}
+.section-blue-icon{
+    font-size: 50px;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
 }
