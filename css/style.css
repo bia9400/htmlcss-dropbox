@@ -92,7 +92,7 @@ padding-bottom: 3rem;
     padding: 7rem 0;   
 }
 .section-3 img {
-    width: 630px;
+    width: 660px;
     padding-right: 3rem;
 }
 .section-3 a {
@@ -115,8 +115,34 @@ padding-bottom: 3rem;
     font-size: 20px;
     padding-bottom: 2rem;
 }
+/* Section4 */
 
-
+.section-4 h1 {
+    font-size: 50px;
+    padding-bottom: 4rem;
+}
+.section-4 h2 {
+    font-size: 28px;
+    padding-bottom: 2rem;
+}
+.section-4 p {
+    font-size: 19px;
+  
+}
+.wrap-fix-column{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 3rem;
+}
+.column{
+    min-height: 400px;
+    width: calc((100% - 20px*3) / 3);
+}
+.section-4 img {
+    width: 100%;
+}
 /* Section5 */
 .section-5{
     padding: 7rem 0;   
