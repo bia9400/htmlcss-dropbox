@@ -41,10 +41,14 @@ header a {
 .section-blue-button{
     font-size: 20px;
     font-weight: 100;
+    background-color: #0B68FF;
 }
 .big-container{
     max-width: 1200px;
     margin: auto;
+   
+}
+.big-container.relative {
     position: relative;
     top: 100px;
 }
@@ -59,15 +63,48 @@ padding-bottom: 3rem;
 }
 .big-container p{
     font-size: 20px;
-    margin-bottom: 2rem;
+    padding: 0 0 2rem 0;
 }
 .button-description{
-    padding: 2rem 0;
-    font-size: 20px;
+    padding: 2rem  0;
+    font-size: 19px;
 }
 .section-blue-icon{
     font-size: 50px;
     position: absolute;
     bottom: 100px;
     left: 0;
+}
+/* Footer */
+footer{
+    height: 800px;
+    color: white;
+    background-color: black;
+    padding: 5rem 0 2rem 0;
+}
+.br-line{
+    width: 120px;
+    padding: 5rem 0 2rem 0;
+    color: white;
+   
+}
+.footer-span{
+    display: block;
+    padding-bottom: .5rem;
+}
+.top-flex{
+    row-gap: 16px;
+    
+}
+.footer-column{
+    flex-grow: 1;
+}
+footer h1 {
+    font-size: 25px;
+    padding-bottom: 2rem;
+}
+.language-padding{
+    padding-left: .3rem;
+    padding-right: .1rem;
+    font-size: 18px;
 }
