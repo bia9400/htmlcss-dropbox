@@ -29,10 +29,12 @@ header a {
     font-size: 18px;
     font-weight: 100;
 }   
-header .header-button{
+.header-button{
+    text-decoration: none;
     background-color: #0061FF;
     padding: .5rem .7rem;
     color: white;
+    margin-bottom: 2rem;
 }
 .section-blue{
     background-color: #B4D0E7;
@@ -41,14 +43,19 @@ header .header-button{
 .big-container{
     max-width: 1200px;
     margin: auto;
+    position: relative;
+    top: 100px;
 }
 .big-container img {
     width: 800px;
+    
 }
 .big-container > h1{
 font-size: 90px;
-font-weight: bold;
+font-weight: bolder;
+padding-bottom: 3rem;
 }
 .big-container p{
     font-size: 20px;
+    margin-bottom: 2rem;
 }
