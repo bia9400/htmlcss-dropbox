@@ -105,6 +105,9 @@ padding-bottom: 3rem;
 .section-2{
     padding: 10rem 0;
 }
+.section-2 h4{
+    padding-left: .5rem;
+}
 .radio-button{
     padding-right: 2rem;
     font-size: 18px;
