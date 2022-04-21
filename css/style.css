@@ -12,6 +12,12 @@
 .pad-bottom-big{
     padding-bottom: 2rem;
 }
+.pad-bottom-biggest{
+    padding-bottom: 3rem;
+}
+ul {
+    list-style-type: none;
+  }
 header{
     width: 100%;
     
@@ -94,40 +100,49 @@ padding-bottom: 3rem;
 
 /* section2 */
 .section-2{
-    padding: 10rem 0;    
+    padding: 10rem 0;
 }
-.section-2-padding{
-    padding-top: 2rem ;
-    padding-inline: 1rem;
+.radio-button{
+    padding-right: 2rem;
+    font-size: 18px;
 }
-.section-2 .column{
-    width: calc((100% - 40px*3) / 3);
-    min-height: 600px;
-    border: 1px solid lightgrey;
+.gap{
+    gap: 2rem;
 }
-.section-2 .fix-column{
-    width: 100%;
-    justify-content: space-between;
-    column-gap: 40px;
+.column{
+    flex-grow: 1;
 }
-.section-2-column-header{
+.column-no-grow{
+    flex-grow: 0;
+}
+.card{
+    border: 1px solid grey;
+    min-height: 895px;
+}
+.card-title{
+    padding: .5rem 0;
+    border-bottom: 1px solid grey;
     text-align: center;
-    padding: .7rem 0;
-    border-bottom: 1px solid lightgrey;
 }
-.block{
-    display: block;
+.card-subtitle{
+    padding: 3rem 2rem;
 }
-.in-line-block{
-    display: inline-block;
+.icons{
+    padding-right: .5rem;
 }
-.section-2 .section2-blue-button {
-    background-color: #0061FF;
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    padding: .7rem 1rem;
+.button-position{
+    margin-bottom: 2rem;
+    position: relative;
+    left: calc(50% - 185px/2);
 }
+
+
+
+
+
+
+
+
 
 /* Section3 */
 .section-3{
@@ -158,7 +173,9 @@ padding-bottom: 3rem;
     padding-bottom: 2rem;
 }
 /* Section4 */
-
+.section-4{
+    padding: 3rem 0;
+}
 .section-4 h1 {
     font-size: 50px;
     padding-bottom: 4rem;
@@ -199,6 +216,9 @@ padding-bottom: 3rem;
     font-size: 20px;
 }
 /* Section6 */
+.section-6{
+    padding-top: 3rem;
+}
 .section-6 img{
     width: 150px;
     filter: invert(1);   
