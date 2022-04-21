@@ -3,7 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+.pad-bottom-small{
+    padding-bottom: .5rem;
+}
+.pad-bottom-medium{
+    padding-bottom: 1rem;
+}
+.pad-bottom-big{
+    padding-bottom: 2rem;
+}
 header{
+    width: 100%;
+    
+}
+img{
     width: 100%;
     
 }
@@ -34,9 +47,6 @@ header a {
     padding: .5rem .7rem;
     color: white;
 }
-.section{
-    width: 100%;
-}
 .section-blue{
     background-color: #B4D0E7;
 
@@ -48,17 +58,20 @@ header a {
 }
 .big-container{
     max-width: 1200px;
+    margin: auto; 
+}
+.small-container{
+    max-width: 1000px;
     margin: auto;
-   
 }
 .big-container.relative {
     position: relative;
     top: 100px;
 }
 .big-container img {
-    width: 800px;
-    
+    width: 800px;   
 }
+
 .big-container > h1{
 font-size: 90px;
 font-weight: bolder;
@@ -78,13 +91,14 @@ padding-bottom: 3rem;
     bottom: 110px;
     left: 0;
 }
-.small-container{
-    max-width: 1000px;
-    margin: auto;
-}
+
 /* section2 */
 .section-2{
     padding: 10rem 0;    
+}
+.section-2-padding{
+    padding-top: 2rem ;
+    padding-inline: 1rem;
 }
 .section-2 .column{
     width: calc((100% - 40px*3) / 3);
@@ -101,21 +115,11 @@ padding-bottom: 3rem;
     padding: .7rem 0;
     border-bottom: 1px solid lightgrey;
 }
-.section-2 .section-2-price{
-    padding: 2rem 2rem;
-}
-.section-2 .section-2-price h2{
-    padding-bottom: 1rem;
-}
-.section-2 .section-2-price div{
-    padding-bottom: .5rem;
-}
-.section-2-description{
-    padding: 2rem 2rem;
-}
-.section-2 .section-2-description span{
-    padding-bottom: 1rem;
+.block{
     display: block;
+}
+.in-line-block{
+    display: inline-block;
 }
 .section-2 .section2-blue-button {
     background-color: #0061FF;
@@ -194,8 +198,38 @@ padding-bottom: 3rem;
     color: blue;
     font-size: 20px;
 }
-
-
+/* Section6 */
+.section-6 img{
+    width: 150px;
+    filter: invert(1);   
+}
+.little-container{
+  padding: 3rem 3rem;
+}
+.full-screen{
+    width: 100%;
+    
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-color: #F5F5F5;
+}
+.partition{
+    width: calc(100% / 3);
+      
+}
+.half-partition{
+    width: 50%;
+    height: calc(100vw / 6);  
+}
+.section-6-br-line{
+    width: 120px;
+    padding: 3rem 0 3rem 0;
+    ;
+}
 /* section7 */
 .section-7{
     background-color: #B4D0E7;
