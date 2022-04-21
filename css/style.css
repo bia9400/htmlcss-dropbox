@@ -119,6 +119,9 @@ padding-bottom: 3rem;
     border: 1px solid grey;
     min-height: 895px;
 }
+.sub-card{
+    border: 1px solid grey;
+}
 .card-title{
     padding: .5rem 0;
     border-bottom: 1px solid grey;
@@ -135,7 +138,12 @@ padding-bottom: 3rem;
     position: relative;
     left: calc(50% - 185px/2);
 }
-
+.bold{
+    font-weight: bold;
+}
+.color-grey{
+    color: grey;
+}
 
 
 
