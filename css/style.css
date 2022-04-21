@@ -286,7 +286,7 @@ padding-bottom: 3rem;
 
 
 /* Lastsection */
-.section.section-8{
+.section-8{
     padding: 8rem 0;
 }
 
@@ -327,7 +327,7 @@ main .last-question{
 footer{
     color: white;
     background-color: black;
-    padding: 5rem 0 2rem 0;
+    padding: 7rem 0 3rem 0;
 }
 .br-line{
     width: 120px;
