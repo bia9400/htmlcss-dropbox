@@ -141,7 +141,11 @@ header a {
 }
 
 .column {
+    
     flex-grow: 1;
+}
+.basis-0{
+    flex-basis:0;
 }
 
 .column-no-grow {
