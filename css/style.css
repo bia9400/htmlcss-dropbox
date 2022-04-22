@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+.relative{
+    position: relative;
+}
 .pad-bottom-small {
     padding-bottom: .5rem;
 }
@@ -342,7 +344,9 @@ header a {
 .section-7 .flex {
     justify-content: space-between;
 }
-
+.space-between{
+    justify-content: space-between;
+}
 .section-7 a {
     font-size: 18px;
     text-decoration: none;
@@ -384,10 +388,21 @@ main .last-question {
 .question i {
     font-size: 16px;
     font-weight: bold;
-    padding-right: 3rem;
+    margin-top: 2rem;
+    padding: .5rem;
+
 }
+.hidden{
+    display: none;
+    color: rgba(0, 0, 0, 0.748);
+    font-size: 16px;
 
-
+}
+.question-icon{
+    position: absolute;
+    top: 12px;
+    right: 1rem;
+}
 
 
 
