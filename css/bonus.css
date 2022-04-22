@@ -2,6 +2,9 @@
 .header-button:hover{
      background-color:#0037ff ;
  }
+ .header-column:hover :not(.header-button){
+    text-decoration: underline;
+}
  .white-button:hover{
      background-color: rgba(211, 211, 211, 0.838);     
  }
