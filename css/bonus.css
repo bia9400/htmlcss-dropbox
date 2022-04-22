@@ -1,1 +1,14 @@
 /* hover sui buttons */
+.header-button:hover{
+     background-color:#0037ff ;
+ }
+ .white-button:hover{
+     background-color: rgba(211, 211, 211, 0.838);     
+ }
+ .header-button:active{
+    background-color:#0328b0 ;
+}
+.white-button:active{
+    background-color: rgba(10, 10, 10, 0.838);    
+    color: white; 
+}
