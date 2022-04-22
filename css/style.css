@@ -143,8 +143,8 @@ header a {
     flex-grow: 1;
 }
 
-.basis-0{
-    flex-basis:0;
+.aspect-ratio{
+    aspect-ratio: 1/1;
 }
 
 .column-no-grow {
@@ -317,7 +317,7 @@ header a {
 
 .half-partition {
     width: 50%;
-    height: calc(100vw / 6);
+    aspect-ratio: 1/1;
 }
 
 .section-6-br-line {
